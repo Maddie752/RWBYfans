@@ -1,6 +1,4 @@
-
-
-  public class RWBYfans
+public class RWBYfans
   {
     public static void main(String[] args)
     {
