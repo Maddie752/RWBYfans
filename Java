@@ -1,0 +1,77 @@
+
+
+  public class RWBYfans
+  {
+    public static void main(String[] args)
+    {
+       System.out.println("Hi there!");
+       System.out.println("What is you favoite RWBY characters from the show");
+      System.out.println("do you think that ruby rose is the best character in the show!");
+
+    boolean rubyRose = true;
+    System.out.println(rubyRose);
+    rubyRose = true;
+
+    Scanner scan = new Scanner(System.in);
+      int rubyRose = scan.nextInt();
+      int count = 1;
+    while (count < rubyRose) {
+      System.out.print("she is the best character because she has the best semblance and aura");
+      int rubyRose = scan.nextInt();
+
+      if (rubyRose == 1){
+ 
+    }
+    else 
+    {
+    
+    System.out.println("you think yang xiao long is the best character");
+
+    boolean yangXiaoLong = false;
+    System.out.println(yangXiaoLong);
+    yangXiaoLong = false;
+
+    }
+    else 
+    {
+
+    System.out.println("is it think weiss schnee");
+
+    boolean weissSchnee = false;
+    System.out.println(weissSchnee);
+    weissSchnee = false;
+
+    }
+    else 
+    {
+
+    System.out.println("is it blake belladonna");
+
+    boolean blakeBelladonna = false;
+    System.out.println(blakeBelladonna);
+    blakeBelladonna = false;
+
+    }
+    else 
+    {
+    
+    System.out.println("how many of you think ruby rose is the best character");
+    int count1 = 20;
+  
+    System.out.println("how many of you think yang xiao long is the best character");
+    int count2 = 20;
+    
+    System.out.println("how many of you think weiss schnee is the best character");
+    int count3 = 10;
+    
+    System.out.println("how many of you think blake belladonna is the best character");
+    int count4 = 10;
+    
+    int  sum;
+    double average;
+    sum = count1 + count2 + count3 + count4;
+
+    average = (double) sum / 4;
+    System.out.print (average);
+    }
+}
