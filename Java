@@ -61,7 +61,7 @@ public class RWBYfans
     
     System.out.println("how many of you think weiss schnee is the best character");
     int count3 = 10;
-    
+         
     System.out.println("how many of you think blake belladonna is the best character");
     int count4 = 10;
     
